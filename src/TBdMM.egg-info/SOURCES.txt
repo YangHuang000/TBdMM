@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/TBdMM/__init__.py
+src/TBdMM/calculations.py
+src/TBdMM/cli.py
+src/TBdMM.egg-info/PKG-INFO
+src/TBdMM.egg-info/SOURCES.txt
+src/TBdMM.egg-info/dependency_links.txt
+src/TBdMM.egg-info/entry_points.txt
+src/TBdMM.egg-info/requires.txt
+src/TBdMM.egg-info/top_level.txt
+tests/test_calculations.py

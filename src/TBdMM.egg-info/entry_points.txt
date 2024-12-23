@@ -1,0 +1,2 @@
+[console_scripts]
+tbdmm = TBdMM.cli:main

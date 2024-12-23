@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "TBdMM"
+version = "0.1.0"
+description = "Compute tight-binding Hamiltonian matrix and d-band moment from a structure"
+authors = [
+  { name = "Yang Huang", email = "yanghuang91@gmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+keywords = ["d-band", "tight-binding", "hamiltonian", "moment"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+requires-python = ">=3.7"
+dependencies = [
+  "numpy>=1.18",
+  "ase>=3.22.0",
+  "argparse"
+]
+
+[project.urls]
+"Source Code" = "https://github.com/YangHuang000/TBdMM"
+"Documentation" = "https://github.com/YangHuang000/TBdMM/wiki"
+
+[project.scripts]
+tbdmm = "TBdMM.cli:main"
