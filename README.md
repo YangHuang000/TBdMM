@@ -6,7 +6,7 @@
 
 ## Features
 
-- **Compute tight-binding d-band moment** \(m_n\) for a selected atomic site.
+- **Compute tight-binding d-band moment** \(m_n\) for a selected atomic site. A few low-order moments: d-band center (first moment), d-band width (related to second moment), d-band skewness (standardized third moment) and d-band kurtosis (standardized fourth moment).
 - **Construct tight-binding Hamiltonian matrix** \(H\) based on user-defined structure.
 - **Return** both \(m_n\) and \(H\).
 - **Command-line interface (CLI)** for straightforward usage in shell scripts or remote servers.
